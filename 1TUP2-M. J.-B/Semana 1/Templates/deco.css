@@ -1,1 +1,6 @@
-
+header {
+  word-spacing: 3cm;
+  background-color: orange;
+  margin-inline: 3cm;
+  text-align: center;
+}
