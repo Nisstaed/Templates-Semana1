@@ -1,6 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(116, 48, 48);
+}
 header {
-  word-spacing: 3cm;
-  background-color: orange;
-  margin-inline: 3cm;
+  background: rgb(70, 4, 4);
   text-align: center;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+a{
+  color: white;
+  margin: 30px;
+}
+div{
+  width: 30%;
+  height: auto;
+  padding: 50px;
+  border: 1px solid white;
+  text-align: center;
+}
+.poeme{
+  color:pink;
+  width: auto;
+  height: 40%;
+  padding: 50px;
+  border: 1px solid white;
+  text-align: center;
+  margin: 0px auto;
+}
+.aside{
+  vertical-align: top;
+  color: white;
+  width: auto;
+  height: 30%;
+  border: 1px solid pink;
+  text-align: center;
+  margin: 0px auto;
+}
+.separator{
+  height: 15px;
+  width: 100%;
+  background-color: black;
+}
+footer{
+  color: pink;
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  line-height: 10px;
+  padding: 10px;
+  background-color: black;
 }
